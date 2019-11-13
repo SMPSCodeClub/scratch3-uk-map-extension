@@ -5,7 +5,6 @@ const ArgumentType = require('../../extension-support/argument-type');
 class Scratch3ML4KUKMap {
 
     constructor() {
-        this.EARTH_RADIUS = 6371;
 
         this.TOP_LEFT = {
             mapCoordsX : -34, mapCoordsY : 138,
@@ -21,6 +20,7 @@ class Scratch3ML4KUKMap {
 
         this.X_RANGE = this.BOTTOM_RIGHT.mapCoordsX - this.TOP_LEFT.mapCoordsX;
         this.Y_RANGE = this.BOTTOM_RIGHT.mapCoordsY - this.TOP_LEFT.mapCoordsY;
+
     }
 
 
